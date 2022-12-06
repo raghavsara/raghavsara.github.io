@@ -35,7 +35,7 @@ $.getJSON("foo.geojson",function(data){
                     .on('locationfound', function(e){
 
 
-                        var marker = L.marker([e.latitude, e.longitude]).bindPopup('Click to know your ward no');
+                        var marker = L.marker([e.latitude, e.longitude]).bindPopup('Click any where to know your ward no');
                         
                         map.addLayer(marker);
                         
